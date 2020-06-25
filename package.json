@@ -1,0 +1,23 @@
+{
+  "name": "gradbackgen",
+  "version": "1.0.0",
+  "description": "Gradient Background Generator",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify script.js > bundle.js && live-stream"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viviennecruz/GradBackGen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viviennecruz/GradBackGen/issues"
+  },
+  "homepage": "https://github.com/viviennecruz/GradBackGen#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
